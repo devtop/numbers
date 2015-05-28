@@ -1,0 +1,23 @@
+{
+  "name": "numbers",
+  "version": "0.0.1",
+  "description": "Number provider to learn numbers in a foreign language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devtop/numbers.git"
+  },
+  "author": "Tobias Ranft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devtop/numbers/issues"
+  },
+  "homepage": "https://github.com/devtop/numbers",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5"
+  }
+}
