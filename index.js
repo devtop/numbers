@@ -1,4 +1,4 @@
-randomNumber = require("randomNumber");
+random = require("random");
 
 console.log("OK, we are starting...");
-console.log(randomNumber.createInteger(2));
+console.log(random.createInteger(2));
