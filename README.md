@@ -14,12 +14,14 @@ node index.js
 # Roadmap
 * arithmetic problems
 * dates
+* phone numbers
 * number to written speech
 * statistics of your excercises
 * statusbar
 
 ## upcoming steps
-* extration of program flow
+* motivation module ;)
+* seperation of program flow
 * introduce sinon
 * more tests
 
