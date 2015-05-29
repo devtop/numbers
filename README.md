@@ -11,13 +11,20 @@ Afterwards you can step through the numbers and practice your language.
 node index.js
 ```
 
+# Test
+The project is mostly written in TDD.
+Hopefully that increases the code quality.
+Tests without continuous integration tends to degrade.
+So, Codeship is monitoring and integrating the project.
+[ ![Codeship Status for devtop/numbers](https://codeship.com/projects/e8f4c5c0-e86a-0132-ab79-0e94167ad564/status?branch=master)](https://codeship.com/projects/82803)
+
 # Roadmap
 * arithmetic problems
 * dates
 * phone numbers
 * number to written speech
-* statistics of your excercises
-* statusbar
+* statistics of your exercises
+* status bar
 
 ## upcoming steps
 * motivation module ;)
