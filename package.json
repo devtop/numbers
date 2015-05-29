@@ -4,7 +4,9 @@
   "description": "Number provider to learn numbers in a foreign language.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha",
+    "test-watch": "find . -name \"*.js\"| entr ./node_modules -ui tdd",
+    "run": "node index.js"
   },
   "repository": {
     "type": "git",
