@@ -18,6 +18,11 @@ node index.js
 * statistics of your excercises
 * statusbar
 
+## upcoming steps
+* extration of program flow
+* introduce sinon
+* more tests
+
 # Why I wrote it?
 I'm new to node.js.
 So it's more a little excercise to get some practice than a serious project.

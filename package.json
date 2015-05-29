@@ -1,6 +1,6 @@
 {
   "name": "numbers",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Number provider to learn numbers in a foreign language.",
   "main": "index.js",
   "scripts": {
