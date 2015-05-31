@@ -1,5 +1,5 @@
 var prompt = require('prompt')
-var random = require('random');
+var random = require('./lib/random');
 
 var schema = {
   properties: {
@@ -27,7 +27,7 @@ prompt.get(schema, function(err, result) {
   var entry;
   for (i=0;i<result.numberOfNumbers;i++) {
     prompt.start();
-    entry = (i+1) + '). ' + random.createInteger(result.rangeMaximum);
+    entry = (i+1) + '). ' + random.integer(result.rangeMaximum);
     entries.push(entry.yellow);
   }
   prompt.get(entries, function(){});

@@ -16,6 +16,7 @@ The project is mostly written in TDD.
 Hopefully that increases the code quality.
 Tests without continuous integration tends to degrade.
 So, Codeship is monitoring and integrating the project.
+
 [ ![Codeship Status for devtop/numbers](https://codeship.com/projects/e8f4c5c0-e86a-0132-ab79-0e94167ad564/status?branch=master)](https://codeship.com/projects/82803)
 
 # Roadmap
